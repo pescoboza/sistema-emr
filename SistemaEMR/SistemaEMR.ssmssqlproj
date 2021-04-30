@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SistemaEMR">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):SEBASTIAN\PS">
+          <Created>2021-04-22T23:10:25.6720647-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="den1.mssql8.gear.host:sistemaehr">
+          <Created>2021-04-27T08:11:57.5486151-05:00</Created>
+          <Type>SQL</Type>
+          <Server>den1.mssql8.gear.host</Server>
+          <UserName>sistemaehr</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="main.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:den1.mssql8.gear.host:False:sistemaehr</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>den1.mssql8.gear.host</AssociatedConnSrvName>
+          <AssociatedConnUserName>sistemaehr</AssociatedConnUserName>
+          <FullPath>main.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_createTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:den1.mssql8.gear.host:False:sistemaehr</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>den1.mssql8.gear.host</AssociatedConnSrvName>
+          <AssociatedConnUserName>sistemaehr</AssociatedConnUserName>
+          <FullPath>SP_createTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_getConsultationsInTimeRange.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:den1.mssql8.gear.host:False:sistemaehr</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>den1.mssql8.gear.host</AssociatedConnSrvName>
+          <AssociatedConnUserName>sistemaehr</AssociatedConnUserName>
+          <FullPath>SP_getConsultationsInTimeRange.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_getNextConsultation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:den1.mssql8.gear.host:False:sistemaehr</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>den1.mssql8.gear.host</AssociatedConnSrvName>
+          <AssociatedConnUserName>sistemaehr</AssociatedConnUserName>
+          <FullPath>SP_getNextConsultation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_insertMockData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:den1.mssql8.gear.host:False:sistemaehr</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>den1.mssql8.gear.host</AssociatedConnSrvName>
+          <AssociatedConnUserName>sistemaehr</AssociatedConnUserName>
+          <FullPath>SP_insertMockData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_registerPatient.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:den1.mssql8.gear.host:False:sistemaehr</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>den1.mssql8.gear.host</AssociatedConnSrvName>
+          <AssociatedConnUserName>sistemaehr</AssociatedConnUserName>
+          <FullPath>SP_registerPatient.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:den1.mssql8.gear.host:False:sistemaehr</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>den1.mssql8.gear.host</AssociatedConnSrvName>
+          <AssociatedConnUserName>sistemaehr</AssociatedConnUserName>
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:den1.mssql8.gear.host:False:sistemaehr</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>den1.mssql8.gear.host</AssociatedConnSrvName>
+          <AssociatedConnUserName>sistemaehr</AssociatedConnUserName>
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,3 @@
+DB_HOST=den1.mssql8.gear.host
+DB_USERNAME=sistemaehr
+DB_PASSWORD=Ab5t463Y5-?4
